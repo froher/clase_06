@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-        <title>Reemplaza este título que se muestra en la ventana de tu navegador</title>
+        <title>Decadencia en la tasa de natalidad</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
@@ -13,21 +13,25 @@
             :root { --bs-font-sans-serif: 'Roboto', sans-serif; }
             h1{font-size: calc(2rem + 2vw)}
             @media (min-width: 992px) { header p{ text-align: justify; text-justify: inter-word; } }
+            g#grafico g:nth-child(even) {fill: #8C6236}
+           g#grafico g:nth-child(odd) {fill: #DEA3CD}
         </style>
     </head>
- 
+
     <body>
 
         <header class="container">
             <div class="row py-4">
                 <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
-                    <h1 class="mb-3 mt-5 text-center">Reemplaza este título</h1>
+                    <h1 class="mb-3 mt-5 text-center">Chile y la decadencia en su tasa de natalidad</h1>
 
-                    <h2 class="fs-6 mb-5 text-center text-uppercase">Nombre Apellido</h2>
+                    <h2 class="fs-6 mb-5 text-center text-uppercase">Francisca Romo</h2>
 
-                    <p class="lead">Reemplaza este párrafo con un sumario del asunto, que sirvea de gancho para continuar con la lectura; ojalá sea un solo párrafo, de una extensión máxima de cien palabras. En este y todos los reemplazos, respeta los colores del código fuente en tu editor. Los colores son indicaciones.</p>
+                    <p class="lead">durante los meses de enero y febrero de 2021 registró el número de nacimientos más bajo de los últimos 10 años para estos meses (ver infografía). Entre ambos meses se contabilizaron 27.631 nacimientos, cifra que en los mismos meses de 2020 fue de 34.065, en un claro y directo impacto de la pandemia.</p>
 
-                    <p>Reemplaza este párrafo con un texto que complemente al introductorio. Puedes extender este párrafo hasta las doscientas palabras. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque ultricies elit eu pellentesque. Fusce a justo pellentesque, scelerisque tellus in, aliquet est. Curabitur nec porttitor nunc. Nullam elementum orci eget rhoncus congue. Proin quis laoreet tellus. Vivamus molestie ullamcorpernisi, sed aliquet magna molestie id. Vivamus semper ipsum eget.</p>
+                    <p>Hay varias razones para explicar este fenómeno. Sin embargo, Salinas sostiene que una de las claves ha sido la desaceleración económica que generó la pandemia, que tiene el potencial de afectar las intenciones de tener hijos, “ya sea respecto de cuándo tenerlos (esperar) o de cuántos”.</p>
+
+                    <p>Esto se puede evidenciar en el grafico de se ve a continueción.</p>
                 </div>
             </div>
         </header>
@@ -40,7 +44,9 @@
                     </svg>
                 </div>
                 <div class="col-11 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6 mx-auto mb-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Así lo confirma un estudio de la Facultad de Economía y Negocios de la U. San Sebastián (USS). Según esta investigación, desde 2016 los nacimientos van a la baja. Solo el año 2018 se registró un “pequeño peak”, con un crecimiento del 2,4% (224.622 nacimientos) respecto del año anterior. Pero este escenario cambió con la llegada de la crisis por Covid-19: en 2020 se registró una caída de -7,7%, llegando sólo a 197.003 nacimientos.</p>
+
+        <p>Las regiones que presentaron las mayores caídas en la natalidad en 2020 de acuerdo al análisis fueron El Maule (-10,3%), La Araucanía (-10,1%) y la Región Metropolitana (-9,8%).</p>
                 </div>
             </div>
         </main>
@@ -50,7 +56,7 @@
                     <div class="col-12">
                         <p class="d-flex justify-content-between small p-1 m-0">
                             <!--reemplaza el # que sigue con la URL de tu cuenta en GitHub-->
-                            <a href="#" class="link-dark">Nombre Apellido</a>
+                            <a href="#" class="link-dark">Francisca Romo</a>
                             <a href="https://github.com/profesorfaco/dno075-2022-1/" class="link-dark">Infografía Digital</a>
                             <a href="https://github.com/profesorfaco/dno075-2022-1/tree/main/clase-06" class="d-none d-lg-inline link-dark">Lunes 11 de abril, 2022</a>
                         </p>
@@ -59,27 +65,35 @@
             </div>
         </footer>
         <script>
-            var censo = [
-                { region: "Arica y Parinacota", poblacion: 226068 },
-                { region: "Tarapacá", poblacion: 330558 },
-                { region: "Antofagasta", poblacion: 607534 },
-                { region: "Atacama", poblacion: 286168 },
-                { region: "Coquimbo", poblacion: 757586 },
-                { region: "Valparaíso", poblacion: 1815902 },
-                { region: "Metropolitana", poblacion: 7112808 },
-                { region: "O'Higgins", poblacion: 914555 },
-                { region: "Maule", poblacion: 1044950 },
-                { region: "Ñuble", poblacion: 480609 },
-                { region: "Biobío", poblacion: 1556805 },
-                { region: "La Araucanía", poblacion: 957224 },
-                { region: "Los Ríos", poblacion: 384837 },
-                { region: "Los Lagos", poblacion: 828708 },
-                { region: "Aysén", poblacion: 103158 },
-                { region: "Magallanes", poblacion: 166533 },
-            ];
-            censo.forEach(function (dato, i) {
-                document.querySelector("#grafico").innerHTML += '<g transform="translate(10, '+ 17 * (i + 1) +')"><rect x="0" y="0" width="'+ (dato.poblacion/25000) +'" height="10"></rect><text x="'+((dato.poblacion/25000)+5)+'" y="8" font-size="8">'+dato.region+'</text></g>';
-            });
-        </script>
-    </body>
-</html>
+        var censo = [
+                  { region: "2006", porcentaje: 1.91 },
+                  { region: "2007", porcentaje: 1.90 },
+                  { region: "2008", porcentaje: 1.91 },
+                  { region: "2009", porcentaje: 1.90 },
+                  { region: "2010", porcentaje: 1.89 },
+                  { region: "2011", porcentaje: 1.88 },
+                  { region: "2012", porcentaje: 1.87 },
+                  { region: "2013", porcentaje: 1.82 },
+                  { region: "2014", porcentaje: 1.79 },
+                  { region: "2015", porcentaje: 1.75 },
+                  { region: "2016", porcentaje: 1.71 },
+                  { region: "2017", porcentaje: 1.68 },
+                  { region: "2018", porcentaje: 1.73 },
+                  { region: "2019", porcentaje: 1.63 },
+                  { region: "2020", porcentaje: 1.30 },
+                  { region: "2021", porcentaje: 0.65 },
+              ];
+              censo.forEach(function (dato, i) {
+                  document.querySelector("#grafico").innerHTML +=
+                  '<g transform="translate(10, '+ 17 * (i + 1) +
+                  ')"><rect x="0" y="0" width="'+
+                   (dato.porcentaje*100) +
+                   '" height="14"></rect><text x="'+
+                   ((dato.porcentaje*100)+5)+
+                   '" y="10" font-size="8">'+
+                   dato.region+
+                   '</text></g>';
+              });
+          </script>
+      </body>
+  </html>
